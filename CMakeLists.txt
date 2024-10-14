@@ -19,6 +19,7 @@ target_compile_features(cxx_setup INTERFACE cxx_std_20)
 target_include_directories(cxx_setup INTERFACE ${PROJECT_SOURCE_DIR})
 
 
+include (cmake/UpdateSubmodules.cmake)
 include(CTest)
 
 add_subdirectory(external)
