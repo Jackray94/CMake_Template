@@ -20,6 +20,7 @@ target_include_directories(cxx_setup INTERFACE ${PROJECT_SOURCE_DIR})
 
 
 include (cmake/UpdateSubmodules.cmake)
+include (cmake/SetupProtobuf.cmake)
 include(CTest)
 
 add_subdirectory(external)
