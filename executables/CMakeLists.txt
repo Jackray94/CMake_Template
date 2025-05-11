@@ -1,12 +1,8 @@
 # add_executable(print_hello print_hello.cpp)
-#target_link_libraries(spdlogTutorial PRIVATE cxx_setup spdlog app)
+<<<<<<< HEAD
 # target_link_libraries(print_hello PRIVATE tools cxx_setup)
 
 add_executable(spdlogTutorial spdlog_tutorial.cpp)
-#target_link_libraries(spdlogTutorial PRIVATE cxx_setup spdlog)
-#find_library(${CMAKE_CURRENT_SOURCE_DIR}/external/protobuf/lib/libprotobuf.a proto)
-#target_link_libraries(spdlogTutorial PRIVATE cxx_setup spdlog ${CMAKE_CURRENT_SOURCE_DIR}/external/protobuf/lib/libprotobuf.a app)
-#target_link_libraries(spdlogTutorial PRIVATE cxx_setup spdlog ${CMAKE_CURRENT_SOURCE_DIR}/../external/protobuf/lib/libprotobuf.a app)
-#target_link_libraries(spdlogTutorial PRIVATE cxx_setup spdlog app)
-#target_link_libraries(spdlogTutorial PRIVATE cxx_setup spdlog libprotobuf generated_proto app)
 target_link_libraries(spdlogTutorial PRIVATE cxx_setup spdlog app)
+=======
+>>>>>>> master
