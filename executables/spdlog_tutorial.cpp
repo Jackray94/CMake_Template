@@ -2,10 +2,7 @@
 #include <memory>
 #include <our_project/LibraryX/tools.h>
 #include <spdlog/spdlog.h>
-<<<<<<< HEAD
 #include <external/protobuf/apple.h>
-=======
->>>>>>> master
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////PART 1 - using the default logger provided by spdlog//////////////////////////
@@ -164,11 +161,8 @@ int main()
   myLogger->log(spdlog::level::critical, "CRITICAL");
 
   spdlog::get("debug")->warn("This is console only");
-<<<<<<< HEAD
   ///////protobuf test:////////
   WriteAndReadThing("BinaryAddressBook.txt");
-=======
->>>>>>> master
   return 0;
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
